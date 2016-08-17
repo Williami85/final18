@@ -1,0 +1,9 @@
+
+
+body{background-color: grey;}
+
+header{background-color: lightblue;}
+
+bookElement {
+	display: inline-block;
+}
