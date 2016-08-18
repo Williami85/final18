@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "lemonMilk";
+  src: url("/fonts/LemonMilk.otf");
+}
+
+html, body {
+
+  margin: 0;
+  background-image: url("/images/blackandwhite.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  color: white;
+  font-size: 60px;
+  margin-left: 43%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-transform: uppercase;
+  font-family: "lemonMilk";
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 5%;
+}
+
+li {
+  margin-left: 5%;
+}
+
+.container {
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: black;
+}
+
+.rules {
+  color: white;
+}
+
+.books {
+  color: white;
+  background-color: black;
+  opacity: 0.5;
+  margin-left: 5%;
+  margin-right: 5%;
+  ;
+}
+
+.books h3, h4 {
+  margin-left: 5%;
+  /*background:rgba(1,1,1,0.5);*/
+
+}
+
+.books p {
+  margin-left: 5%;
+  margin-right: 15%;
+  text-align: justify;
+}
+
+.books img {
+  margin-left: 5%;
+}
+
+.about{
+background-color: black;
+color: white;
+}
+
+.contact{
+background-color: gray;
+color: black;
+
+}
+
+
+/*.back{*/
+  /* Location of the image */
+  /*background-image: url(./blackandwhite.jpg);*/
+  
+  /* Image is centered vertically and horizontally at all times */
+  /*background-position: center center;*/
+  
+  /* Image doesn't repeat */
+  /*background-repeat: no-repeat;*/
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  /*background-attachment: fixed;*/
+  
+  /* This is what makes the background image rescale based on its container's size */
+  /*background-size: cover;*/
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  /*background-color:#464646;*/
+  
+  /* SHORTHAND CSS NOTATION
+   * background: url(background-photo.jpg) center center cover no-repeat fixed;
+   */
+/*}*/
+
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  .back {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+/*    background-image: url(images/map.jpg);
+*/  }
+	}
+
+bookElement {
+	display: inline-block;
+
+}
+
+/*add outside font color. Want to keep it clean so use trasparent navigation. white back grund. Grey font color. Stick your 
+input box in the center. Add a carousel of travel options or new books in the top div. */
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/my.css">
+
+</head>
+
+<body class="back" ng-app="final" ng-controller="bookCtrl">
+	<header><a href="#/">Trook</a></header>
+	<!-- add bootstrap navigation -->
+
+
+
+
+<div class="rules">
+	<h2> A book for your travel </h2>
+	<ul>
+		<li>Select the Range of your trip. I.E if your first leg of travel is 2 hours and your second leg of travel is 2 hours. Then select a range of 4 hours.</li>
+		<li>Click the button</li>
+		<li>You'll get a fictional novel that can be read specifically for the length of your trip.</li>
+	</ul>
+</div>
+
+
+
+<div class="container">
+	<form class="form">
+<!-- 		Create a scroll down input box to pick Genre.-->
+	<select name="select" id="hourSelect">
+		<option value="selecthours">Select The Range of Your Trip</option>
+<!-- 		<option value="oneTo4">One to Four Hour Trip</option> 
+ -->		<option value="fourTo6">Four to Six Hour Trip</option> 
+		<option value="sixTo8">Six to Eight Hour Trip</option>
+		<option value="eightTo10">Eight to Ten Hour Trip</option>
+		<option value="tenTo12">Ten to Twelve Hour Trip</option>
+		<option value="twelveTo14">Twelve to Fourteen Hour Trip</option>
+<!-- 		<option value="fourteenTo16">Fourteen to Sixteen Hour Trip</option>
+ -->	</select>
+	<button type="button" id="but" ng-click="clickFunction()">Click to get your books</button>
+	</form>
+</div>
+
+<bookElement class="books">
+	
+</bookElement>
+	 
+<!-- <div class="about">
+<h3>Trook</h3>
+<p> Created in 2016 to help people find a book for travel. I have always had an issue finding a book for travel. So I created a site to assist people with finding a book.</p>
+</div>
+
+<div class="contact">
+<h3>Contact Us</h3>
+<p>Email(ithica.williams@gmail.com)</p>
+<p>Twitter @IthicaW</p>
+
+
+	</div> -->
+
+
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/control.js"></script>
+		
+
+</body>
+</html>
